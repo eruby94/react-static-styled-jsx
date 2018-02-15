@@ -16,6 +16,22 @@ export default () => (
       <div className="content">
         <Routes />
       </div>
+      <style jsx global>{`
+        nav {
+          width: 100%;
+          background: #108db8;
+        }
+
+        nav a {
+          color: white;
+          padding: 1rem;
+          display: inline-block;
+        }
+
+        .content {
+          padding: 1rem;
+        }
+      `}</style>
     </div>
   </Router>
 )
